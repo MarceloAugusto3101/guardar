@@ -1,0 +1,147 @@
+.body1 {
+    background-color: #512ca9;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(33, 96, 150);
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: color 0.4s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #000000
+}
+
+.texto-pr {
+    color: white;
+}
+
+.texto-foco::before {
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2)) 0%, rgba(15, 15, 30, 0) 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(50px);
+    z-index: 1;
+    animation: pulse 2s infinite alternate;
+
+}
+
+.texto-pr {
+    text-align: center;
+    margin-top: 400px;
+    justify-self: center;
+    margin-left: 650px;
+    animation: pulse 2s infinite alternate;
+}
+
+.texto-foco img {
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 70px;
+    display: flex;
+    justify-self: center;
+    animation: pulse 2s infinite alternate;
+
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0, 5;
+        transform: translate(-50%, -50px) scale(0.4);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.4);
+    }
+}
+
+.body2 {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.q{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    padding-top: 30px;
+    font-family: "Jacquarda Bastarda 9", serif;
+
+}
+
+.quadrado-maior {
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin: 200px;
+    margin-top: 50px;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.cards {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    color: white;
+    background-color: rgb(123, 123, 174);
+    border-radius: 10px;
+}
+
+.cards img {
+    display: flex;
+    justify-self: center;
+}
+
+.cards b {
+    justify-self: center;
+    display: flex;
+}
+.qr{
+    display: flex;
+    justify-self: center;
+    padding-top: 200px;
+}
+.Git{
+        display: flex;
+    text-align: center;
+    justify-self: center;
+    padding-top: 50px;
+    
+}
