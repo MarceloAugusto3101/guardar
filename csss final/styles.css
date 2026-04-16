@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 5, 74);
+    color: #ffff;
+}
+
+.Logo {
+    padding-left: 40px;
+
+}
+.foco {
+    font-size: medium;
+    height: 200px;    
+}
+.clique {
+    color: white;
+    text-decoration: none;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.quadaradao {
+    background: linear-gradient(to right, #000080, #120a8f, #1414b9, #0000e7);
+    color: #ffff;
+    padding: 5px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+
+.Ver {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.Conhecer {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+        padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Destaques {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 150px;
+    border-radius: 10px;
+padding-top: 100px;
+}
+
+.Card1 {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-left: 10px;
+    padding-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.Card1 img {
+    display: flex;
+    justify-self: center;
+    border-radius: 10px;
+}
+.Card1 a{
+        color: blue;
+}
+
+.Direita {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    margin-left: 900px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 60px;
+    position: relative;
+}
+
+.cima {
+    padding-bottom: 0px;
+    background-color: rgb(218, 214, 208);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.baixo {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(218, 214, 208);
+    color: black;
+    border-radius: 10px;
+}
+.Estrutura{
+    text-align: center;
+}
+.final{
+    background-color: rgb(170, 179, 186);
+    border-radius: 10px;
+    display: flex;
+    margin: 90px;
+}
+.p1{
+    background-color: aqua;
+    margin: 90px;
+}
