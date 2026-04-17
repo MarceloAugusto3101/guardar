@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    background-color: rgb(224, 224, 224);
+}
+h2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
 }
 
 .topo {
@@ -76,6 +81,8 @@ body {
     padding: 150px;
     border-radius: 10px;
 padding-top: 100px;
+    animation: deslizarDireita 2s ease-in-out infinite alternate;
+
 }
 
 .Card1 {
@@ -136,4 +143,94 @@ padding-top: 100px;
 .p1{
     background-color: aqua;
     margin: 90px;
+}
+
+.banner{
+    background-color: #0000e7;
+    color: white;
+    text-align: center;
+   padding: 10px;
+}
+
+@keyframes deslizarDireita {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+.grand {
+    justify-self: center;
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.esq {
+    width: 70%;
+    justify-self: left;
+    
+}
+
+.box {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.esq1, .esq2 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.esq1 img{
+justify-self: center;
+border-radius: 10px;
+}
+.esq2 img{
+justify-self: center;
+border-radius: 10px;
+}
+
+.dir {
+    width: 30%;
+    flex-direction: column;
+    margin-left: 90px;
+    
+}
+
+.plan1, .plan2 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 20px;
+}
+.Dialogo{
+    background-color: white;
+}
+.Dialogo1{
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    border-radius: 10px;
+}
+.direita{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grand-baixo{
+        justify-self: center;
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-top: 90px;
+    border-radius: 10px;
+    display: flex;
 }
