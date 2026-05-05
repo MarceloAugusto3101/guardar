@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Topo">
+        <header>
+            <div class="Logo">Sistema brabo</div>
+        </header>
+        <nav><a class="Navegador" href="#">Idade</a>
+            <a class="Navegador" href="avaliação.html">Avaliação</a>
+            <a class="Navegador" href="desconto.html">Desconto</a>
+            <a class="Navegador" href="login.html">Login</a>
+        </nav>
+    </div>
+    <main class="container2">
+        <div class="quadrado">
+        <h1 id="Olá">Olá</h1>
+        <div id="Name">
+            <label for="">Digite seu nome de usuario:</label>
+            <input id="Usuario" type="text" placeholder="Usuario"> <button onclick="Entrar()">Entrar</button>
+        </div> <br>
+        <div class="Hide" id="Hide">
+            <label for="">Digite a sua idade</label>
+            <input id="idade" type="number" placeholder="Idade"><button onclick="Verificar()">Verificar</button>
+            <p id="Indicador">?</p>
+        </div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

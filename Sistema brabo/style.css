@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.quadrado{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: 12%;
+    padding: 10vh;
+    border-radius: 10px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    justify-self: center;
+    background-color: aqua;
+    padding: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.confia{
+    display: flex;
+    margin: auto;
+}
+.Sistemabrabo{
+    text-align: center;
+}
+.container2{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#Olá{
+    margin-top: 10%;
+}
+.Hide{
+    display: none;
+}
+.Topo{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(32, 27, 121) 0%, rgb(74, 74, 134) 35%, rgb(255, 255, 255) 100%);
+    border-bottom: #ffff 1px solid;
+}
+nav {
+    display: flex;
+    gap: 20px;
+}
+.Navegador{
+    text-decoration: none;
+    color: #0c1e83;
+    margin-top: 10px;
+}
+.Logo{
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    border: black 1px silver;
+}
+#Entrar{
+    border: none;
+    color: white;
+    background-color: #0c1e83;
+    border-radius: 10px;
+    
+}
